@@ -1,0 +1,19 @@
+.location-search-input {
+  width: 250px;
+  height: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #b3b3b3;
+  border: none;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(227, 225, 225);
+  background-color: rgb(249, 249, 246);
+  position: relative;
+  z-index: 1;
+}
+.location-search-input:focus {
+  outline: none;
+}

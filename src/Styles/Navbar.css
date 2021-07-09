@@ -1,0 +1,51 @@
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  height: 54px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px 15px;
+  border-bottom: 1px solid #d7d7d7;
+}
+.nav-left {
+  display: flex;
+}
+
+.brand {
+  width: 123px;
+  height: 28px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.brand:hover {
+  cursor: pointer;
+}
+.pointer {
+  height: 60px;
+  width: 44px;
+}
+.pointer:hover {
+  cursor: pointer;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.btn-register,
+.btn-login {
+  color: rgb(215, 90, 76);
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border-radius: 40px;
+  border: 1px solid rgb(215, 90, 76);
+  margin: 0px 15px;
+}
+.text-or {
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}
+.btn-register:hover,
+.btn-login:hover {
+  cursor: pointer;
+}
